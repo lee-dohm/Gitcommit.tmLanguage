@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>COMMIT_EDITMSG</string>
+	</array>
+	<key>name</key>
+	<string>Gitcommit</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>comment</key>
+			<string>Comments</string>
+			<key>match</key>
+			<string>#.*</string>
+			<key>name</key>
+			<string>comment.gitignore</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.gitcommit</string>
+	<key>uuid</key>
+	<string>5007fd0c-6002-4776-8a45-0c28af18fe1c</string>
+</dict>
+</plist>
