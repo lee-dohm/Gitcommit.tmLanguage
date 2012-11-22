@@ -14,7 +14,11 @@ Go to the "Packages" directory (`Preferences` / `Browse Packages...`).  Then clo
 
 Once installed, if you have configured Sublime Text to be your editor for your Git commit messages you should notice the following:
 
+## Complete
 * Lines beginning with `#` should look like comments.
+
+## Planned 
+
 * The first line should be colored as a string until you pass the 50<sup>th</sup> column, then it should be colored like an error.
 * The second line should be colored like an error if there is any text in it.
 * Successive lines should be colored like strings.
