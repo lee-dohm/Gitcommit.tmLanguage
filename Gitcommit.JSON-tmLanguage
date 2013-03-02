@@ -1,11 +1,14 @@
-{ "name": "Gitcommit",
-  "scopeName": "text.gitcommit",
-  "fileTypes": ["COMMIT_EDITMSG"],
-  "patterns": [
-    { "match": "#.*",
-      "name": "comment.gitignore",
-      "comment": "Comments"
-    }
-  ],
-  "uuid": "5007fd0c-6002-4776-8a45-0c28af18fe1c"
+{ 
+    "name": "Gitcommit",
+    "scopeName": "text.gitcommit",
+    "fileTypes": ["COMMIT_EDITMSG"],
+    "patterns": [
+        { 
+            "match": "^#.*",
+            "name": "comment.gitcommit",
+            "comment": "Comments"
+        }
+    ],
+  
+    "uuid": "5007fd0c-6002-4776-8a45-0c28af18fe1c"
 }
